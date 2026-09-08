@@ -3,201 +3,381 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio digital personal de Mariana Encizo Amezquita. Tecnología, aprendizaje y proyecto de vida digital.">
-  <title>Mariana Encizo | Portafolio Digital</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Proyecto Final — Mi Portafolio Digital Personal de Mariana Encizo Amezquita.">
+  <title>Proyecto Final | Mi Portafolio Digital Personal</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Inicio">ME<span>.</span></a>
-    <nav>
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#formacion">Formación</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-    <a class="mini-cta" href="#contacto">Hablemos</a>
-  </header>
 
-  <main>
-    <section id="inicio" class="hero">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span></span> PORTAFOLIO DIGITAL PERSONAL</p>
-        <h1>Ideas que<br><em>se convierten</em><br>en proyectos.</h1>
-        <p class="hero-text">
-          Soy <strong>Mariana Encizo Amezquita</strong>, estudiante de grado 11.
-          Este espacio reúne mi aprendizaje, mis habilidades digitales y la manera
-          en que estoy construyendo mi camino hacia el futuro.
+<header class="topbar">
+  <a href="#inicio" class="brand" aria-label="Inicio">
+    <span class="brand-mark">M</span>
+    <span>Mariana Encizo</span>
+  </a>
+  <nav aria-label="Navegación principal">
+    <a href="#presentacion">Presentación</a>
+    <a href="#formacion">Formación</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#sustentacion">Sustentación</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main id="inicio">
+
+  <section class="hero">
+    <div class="hero-content">
+      <p class="kicker">TECNOLOGÍA E INFORMÁTICA · 2026 · GRADO 11</p>
+      <h1>Mi Portafolio<br><em>Digital Personal</em></h1>
+      <p class="hero-text">
+        Proyecto final que reúne mi presentación, formación académica, habilidades,
+        trabajos destacados y aprendizajes desarrollados durante el periodo,
+        en una página web creada con HTML y CSS.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#presentacion">Explorar proyecto</a>
+        <a class="button secondary" href="#sustentacion">Ver sustentación</a>
+      </div>
+    </div>
+
+    <aside class="hero-panel">
+      <div class="status"><span></span> PROYECTO FINAL</div>
+      <div class="initial">M</div>
+      <h2>Mariana<br>Encizo Amezquita</h2>
+      <p>Estudiante de grado 11</p>
+      <div class="panel-line"></div>
+      <div class="mini-grid">
+        <div><b>HTML</b><small>Estructura</small></div>
+        <div><b>CSS</b><small>Diseño</small></div>
+        <div><b>WEB</b><small>Publicación</small></div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="statement">
+    <p class="statement-label">SITUACIÓN PROBLEMA · ABP</p>
+    <p class="statement-text">
+      Al finalizar el periodo, el reto es demostrar ante compañeros y docente
+      el resultado de diez semanas de trabajo: <strong>un portafolio digital
+      personal publicado en Internet.</strong>
+    </p>
+    <p class="question">¿Qué tan preparada estoy para mostrar al mundo mi trabajo digital y mi proyecto personal?</p>
+  </section>
+
+  <section class="section" id="presentacion">
+    <div class="section-title">
+      <span>01</span>
+      <div><p class="kicker">PRESENTACIÓN PERSONAL</p><h2>Conocerme es el<br>primer paso.</h2></div>
+    </div>
+
+    <div class="intro-grid">
+      <div class="large-copy">
+        <p class="lead">Hola, soy <strong>Mariana Encizo Amezquita</strong>, estudiante de grado 11.</p>
+        <p>
+          Este portafolio es mi proyecto final de Tecnología e Informática.
+          Lo construí para presentar de forma clara y organizada quién soy,
+          mi formación, las habilidades que he desarrollado y los aprendizajes
+          que considero más importantes de este periodo.
         </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#proyectos">Ver mi trabajo <span>↗</span></a>
-          <a class="button ghost" href="#sobre-mi">Conocerme</a>
+        <p>
+          No quería que fuera solamente una colección de textos. Mi intención
+          es convertir lo aprendido en una página con identidad propia,
+          estructura, diseño y un propósito definido: <strong>comunicar mi
+          trabajo digital y dejar una evidencia organizada de mi proceso.</strong>
+        </p>
+      </div>
+
+      <div class="info-card">
+        <span class="card-label">FICHA PERSONAL</span>
+        <div class="info-row"><span>Nombre</span><strong>Mariana Encizo Amezquita</strong></div>
+        <div class="info-row"><span>Nivel</span><strong>Grado 11</strong></div>
+        <div class="info-row"><span>Área</span><strong>Tecnología e Informática</strong></div>
+        <div class="info-row"><span>Proyecto</span><strong>Portafolio Digital Personal</strong></div>
+        <div class="info-row"><span>Resultado</span><strong>Publicado en Internet</strong></div>
+      </div>
+    </div>
+
+    <div class="three-cards">
+      <article><span>¿QUIÉN SOY?</span><h3>Una estudiante en etapa de cierre escolar</h3><p>Estoy culminando grado 11 y fortaleciendo conocimientos que puedo llevar a nuevas etapas académicas y personales.</p></article>
+      <article><span>¿QUÉ PRESENTO?</span><h3>Mi perfil y mis aprendizajes</h3><p>Presento información personal, formación, habilidades, trabajos destacados y una reflexión sobre el proceso.</p></article>
+      <article><span>¿PARA QUÉ LO HAGO?</span><h3>Para mostrar lo que sé hacer</h3><p>Porque aprender también implica saber organizar, explicar y presentar aquello que se ha construido.</p></article>
+    </div>
+  </section>
+
+  <section class="section soft" id="formacion">
+    <div class="section-title">
+      <span>02</span>
+      <div><p class="kicker">FORMACIÓN ACADÉMICA</p><h2>Lo que estoy<br>construyendo.</h2></div>
+    </div>
+
+    <div class="education-grid">
+      <article class="education-main">
+        <span class="tag">FORMACIÓN ACTUAL</span>
+        <h3>Grado 11</h3>
+        <p class="institution">Institución Educativa El Chairá José María Córdoba</p>
+        <p>
+          Mi formación actual representa una etapa de cierre y preparación para
+          nuevos retos. En Tecnología e Informática, este periodo me permitió
+          relacionar herramientas digitales con investigación, organización,
+          comunicación y creación de contenido web.
+        </p>
+      </article>
+
+      <div class="learning-list">
+        <div><b>01</b><span>Herramientas colaborativas</span><small>Google Docs</small></div>
+        <div><b>02</b><span>Organización de información</span><small>Google Sheets</small></div>
+        <div><b>03</b><span>Recolección de información</span><small>Google Forms</small></div>
+        <div><b>04</b><span>Comunicación visual</span><small>Google Slides</small></div>
+        <div><b>05</b><span>Desarrollo web</span><small>HTML + CSS</small></div>
+        <div><b>06</b><span>Publicación web</span><small>GitHub Pages</small></div>
+      </div>
+    </div>
+
+    <div class="knowledge-box">
+      <div><span class="kicker">¿QUÉ APRENDÍ?</span><h3>Las herramientas tienen sentido cuando se conectan con un propósito.</h3></div>
+      <p>
+        Aprendí que un documento, una hoja de cálculo, un formulario, una
+        presentación o una página web no son aprendizajes aislados. Cada
+        herramienta puede cumplir una función dentro de un proceso: organizar,
+        investigar, recopilar, comunicar, diseñar y finalmente presentar un
+        resultado.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="habilidades">
+    <div class="section-title">
+      <span>03</span>
+      <div><p class="kicker">HABILIDADES</p><h2>Lo que sé hacer<br>y seguir mejorando.</h2></div>
+    </div>
+
+    <p class="section-lead">
+      Las habilidades de este proyecto se desarrollaron mediante la práctica.
+      Algunas son digitales y otras personales; juntas me ayudan a construir y
+      comunicar mejor mi trabajo.
+    </p>
+
+    <div class="skill-grid">
+      <article><b>01</b><h3>Google Docs</h3><p>Redactar, organizar y trabajar documentos, incluyendo dinámicas de colaboración y revisión.</p></article>
+      <article><b>02</b><h3>Google Sheets</h3><p>Organizar información en hojas de cálculo de forma estructurada y comprensible.</p></article>
+      <article><b>03</b><h3>Google Forms</h3><p>Crear formularios y preguntas para recopilar opiniones o información de manera organizada.</p></article>
+      <article><b>04</b><h3>Google Slides</h3><p>Preparar presentaciones y distribuir información para comunicar un tema con claridad.</p></article>
+      <article class="accent"><b>05</b><h3>HTML</h3><p>Comprender la estructura de una página web y organizar su contenido mediante elementos HTML.</p></article>
+      <article class="accent"><b>06</b><h3>CSS</h3><p>Aplicar colores, tipografía, tamaños, espacios y distribución para construir una presentación visual.</p></article>
+    </div>
+
+    <div class="personal-skills">
+      <span class="kicker">HABILIDADES PERSONALES</span>
+      <div class="skill-tags">
+        <span>Organización</span><span>Creatividad</span><span>Responsabilidad</span>
+        <span>Comunicación</span><span>Trabajo en equipo</span><span>Revisión</span>
+        <span>Aprendizaje autónomo</span><span>Adaptación</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft" id="proyectos">
+    <div class="section-title">
+      <span>04</span>
+      <div><p class="kicker">SECCIÓN DE PROYECTOS DESTACADOS</p><h2>Trabajos que<br>representan mi aprendizaje.</h2></div>
+    </div>
+
+    <p class="section-lead">
+      Esta sección reúne trabajos y aprendizajes vinculados con el periodo.
+      El proyecto principal es el portafolio digital; las demás referencias
+      muestran las herramientas y conocimientos que contribuyeron a construirlo.
+    </p>
+
+    <div class="project-feature">
+      <div class="project-index">01</div>
+      <div>
+        <span class="tag">PROYECTO FINAL</span>
+        <h3>Mi Portafolio Digital Personal</h3>
+        <p>
+          Es el proyecto final de la última semana. Su propósito es demostrar
+          el resultado de diez semanas de trabajo mediante un portafolio
+          personal publicado en Internet.
+        </p>
+        <div class="project-facts">
+          <div><span>Propósito</span><b>Presentar mi perfil y aprendizaje</b></div>
+          <div><span>Tecnologías</span><b>HTML + CSS</b></div>
+          <div><span>Resultado</span><b>Página web publicada</b></div>
         </div>
       </div>
-      <div class="hero-card reveal">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="monogram">M<span>E</span></div>
-        <div class="floating-card card-top">11°<small>grado</small></div>
-        <div class="floating-card card-bottom">HTML + CSS<small>creación web</small></div>
-        <p class="hero-note">“Aprender también es crear.”</p>
-      </div>
-    </section>
+    </div>
 
-    <section class="marquee" aria-label="Áreas de aprendizaje">
-      <div>TECNOLOGÍA <span>✦</span> CREATIVIDAD <span>✦</span> APRENDIZAJE <span>✦</span> PROYECTOS <span>✦</span> FUTURO <span>✦</span></div>
-    </section>
+    <div class="project-grid">
+      <article>
+        <span>APRENDIZAJE 02</span>
+        <h3>Google Docs · Sheets · Forms · Slides</h3>
+        <p>
+          Conjunto de herramientas trabajadas durante el periodo para
+          redactar y colaborar, organizar información, recopilar datos y
+          preparar presentaciones.
+        </p>
+      </article>
+      <article>
+        <span>APRENDIZAJE 03</span>
+        <h3>HTML + CSS</h3>
+        <p>
+          HTML aporta la estructura y el contenido de una página; CSS permite
+          trabajar su apariencia, tipografía, colores, tamaños y espaciado.
+        </p>
+      </article>
+      <article>
+        <span>APRENDIZAJE 04</span>
+        <h3>Publicación en GitHub Pages</h3>
+        <p>
+          El trabajo web se lleva a un espacio público para convertirlo en un
+          portafolio accesible mediante Internet.
+        </p>
+      </article>
+    </div>
 
-    <section id="sobre-mi" class="section about">
-      <div class="section-label">01 / SOBRE MÍ</div>
-      <div class="two-col">
-        <div>
-          <h2>Un portafolio que habla de <em>mi proceso.</em></h2>
-        </div>
-        <div class="about-copy">
-          <p>
-            Este portafolio nace como producto final de mi proceso de aprendizaje
-            en Tecnología e Informática. Más que una colección de trabajos,
-            representa lo que he aprendido y cómo puedo usar herramientas
-            digitales para comunicar mis ideas.
-          </p>
-          <p>
-            Me interesa seguir aprendiendo, mejorar con cada proyecto y transformar
-            lo que imagino en algo que pueda compartir con los demás.
-          </p>
-          <div class="signature">Mariana <span>—</span> 2026</div>
-        </div>
-      </div>
-    </section>
+    <div class="important-note">
+      <strong>Importante:</strong> los ejemplos que aparecen en las actividades
+      de la plataforma no se presentan aquí como proyectos personales. El
+      proyecto final de esta página es <strong>Mi Portafolio Digital Personal</strong>.
+    </div>
+  </section>
 
-    <section id="formacion" class="section formation">
-      <div class="section-label">02 / FORMACIÓN ACADÉMICA</div>
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="year">ACTUALIDAD</div>
-          <div class="timeline-dot"></div>
-          <div>
-            <h3>Grado 11</h3>
-            <p>Institución Educativa El Chairá José María Córdoba</p>
-            <span>Formación escolar · Tecnología e Informática</span>
-          </div>
-        </article>
-        <article class="timeline-item">
-          <div class="year">2026</div>
-          <div class="timeline-dot"></div>
-          <div>
-            <h3>Proyecto integrador</h3>
-            <p>Desarrollo de un portafolio digital personal con HTML y CSS.</p>
-            <span>Producto digital · Publicación web</span>
-          </div>
-        </article>
-      </div>
-    </section>
+  <section class="section">
+    <div class="section-title">
+      <span>05</span>
+      <div><p class="kicker">CONSTRUCCIÓN DEL PROYECTO FINAL</p><h2>De la idea a<br>una página publicada.</h2></div>
+    </div>
 
-    <section id="habilidades" class="section skills">
-      <div class="section-label">03 / HABILIDADES</div>
-      <div class="skills-head">
-        <h2>Herramientas que<br><em>estoy aprendiendo a dominar.</em></h2>
-        <p>Durante el periodo trabajé con herramientas de productividad, formularios, presentaciones y desarrollo web.</p>
-      </div>
-      <div class="skill-grid">
-        <article><span>01</span><h3>Google Docs</h3><p>Creación y edición colaborativa de documentos.</p></article>
-        <article><span>02</span><h3>Google Sheets</h3><p>Organización de información y trabajo con datos.</p></article>
-        <article><span>03</span><h3>Google Forms</h3><p>Diseño de formularios para recopilar opiniones e información.</p></article>
-        <article><span>04</span><h3>Google Slides</h3><p>Presentaciones claras, visuales y preparadas para sustentar proyectos.</p></article>
-        <article class="accent"><span>05</span><h3>HTML</h3><p>Estructura y contenido de páginas web.</p></article>
-        <article class="accent"><span>06</span><h3>CSS</h3><p>Diseño visual, tipografía, colores, espaciado y estilo.</p></article>
-      </div>
-    </section>
+    <div class="process">
+      <article><span>01</span><h3>Definir</h3><p>Identificar qué información debía presentar el portafolio y organizarla por secciones.</p></article>
+      <article><span>02</span><h3>Seleccionar</h3><p>Elegir la información que representa mi formación, habilidades y aprendizajes.</p></article>
+      <article><span>03</span><h3>Estructurar</h3><p>Organizar el contenido de la página para que tenga una lectura clara y coherente.</p></article>
+      <article><span>04</span><h3>Desarrollar</h3><p>Utilizar HTML para construir la estructura y CSS para definir el diseño visual.</p></article>
+      <article><span>05</span><h3>Revisar</h3><p>Comprobar la organización, presentación y coherencia de la información antes de mostrar el resultado.</p></article>
+      <article><span>06</span><h3>Publicar</h3><p>Presentar el portafolio como una página web disponible en Internet mediante GitHub Pages.</p></article>
+    </div>
 
-    <section id="proyectos" class="section projects">
-      <div class="section-label">04 / PROYECTOS DESTACADOS</div>
-      <div class="projects-intro">
-        <h2>Lo digital también puede<br><em>contar una historia.</em></h2>
-        <p>Estos son los productos y aprendizajes que forman parte de mi recorrido.</p>
-      </div>
-      <div class="project-list">
-        <article class="project-card featured">
-          <div class="project-number">01</div>
-          <div class="project-content">
-            <p class="tag">PROYECTO FINAL</p>
-            <h3>Mi Portafolio Digital Personal</h3>
-            <p>Una página web diseñada para reunir mi presentación, formación, habilidades y trabajos en un solo espacio digital.</p>
-            <div class="chips"><span>HTML</span><span>CSS</span><span>Diseño web</span></div>
-          </div>
-          <div class="project-arrow">↗</div>
-        </article>
-        <article class="project-card">
-          <div class="project-number">02</div>
-          <div class="project-content">
-            <p class="tag">PRODUCTIVIDAD DIGITAL</p>
-            <h3>Herramientas de Google</h3>
-            <p>Experiencia de aprendizaje con Docs, Sheets, Forms y Slides para crear, organizar, recopilar información y presentar ideas.</p>
-            <div class="chips"><span>Docs</span><span>Sheets</span><span>Forms</span><span>Slides</span></div>
-          </div>
-          <div class="project-arrow">↗</div>
-        </article>
-        <article class="project-card">
-          <div class="project-number">03</div>
-          <div class="project-content">
-            <p class="tag">PROCESO DE APRENDIZAJE</p>
-            <h3>Investigación y organización</h3>
-            <p>Planificación, objetivos, antecedentes, glosario, cronograma y reflexión como parte del proceso de trabajo tecnológico.</p>
-            <div class="chips"><span>Investigación</span><span>Planificación</span><span>Metodología</span></div>
-          </div>
-          <div class="project-arrow">↗</div>
-        </article>
-      </div>
-    </section>
+    <div class="technical-card">
+      <div><span class="kicker">FICHA TÉCNICA</span><h3>Proyecto Final — Mi Portafolio Digital Personal</h3></div>
+      <dl>
+        <div><dt>Tipo</dt><dd>Proyecto digital / página web personal</dd></div>
+        <div><dt>Área</dt><dd>Tecnología e Informática</dd></div>
+        <div><dt>Lenguajes</dt><dd>HTML y CSS</dd></div>
+        <div><dt>Integración</dt><dd>Aprendizajes del tercer periodo</dd></div>
+        <div><dt>Publicación</dt><dd>GitHub Pages</dd></div>
+        <div><dt>Propósito</dt><dd>Mostrar trabajo, formación y habilidades</dd></div>
+      </dl>
+    </div>
+  </section>
 
-    <section class="section quote-section">
-      <div class="quote-mark">“</div>
-      <blockquote>Mi proyecto no termina cuando lo publico:<br><em>empieza cuando puedo seguir construyendo sobre lo aprendido.</em></blockquote>
-      <p>— Mariana Encizo Amezquita</p>
-    </section>
+  <section class="section dark-section" id="sustentacion">
+    <div class="section-title light">
+      <span>06</span>
+      <div><p class="kicker">LA SUSTENTACIÓN</p><h2>Explicar el proyecto<br>es demostrar lo aprendido.</h2></div>
+    </div>
 
-    <section class="section presentation">
-      <div class="section-label">05 / MI SUSTENTACIÓN</div>
-      <div class="presentation-box">
-        <div>
-          <p class="tag">MI APRENDIZAJE</p>
-          <h2>Lo que aprendí<br><em>durante el proyecto.</em></h2>
-        </div>
-        <div class="presentation-text">
-          <p>Durante este proyecto aprendí a organizar y presentar mi información de manera digital, utilizando herramientas como Google Docs, Sheets, Forms y Slides, además de HTML y CSS para crear una página web.</p>
-          <p>También aprendí que desarrollar un proyecto requiere organización, creatividad, paciencia y revisión. Lo más importante fue convertir lo aprendido durante el periodo en un producto digital propio que puedo seguir mejorando y utilizar como parte de mi formación académica y mi futuro profesional.</p>
-        </div>
-      </div>
-    </section>
+    <p class="dark-lead">
+      La sustentación es la presentación oral donde explico y defiendo mi
+      proyecto. Estas respuestas organizan lo que debo comunicar frente a
+      mis compañeros y docente.
+    </p>
 
-    <section id="contacto" class="contact">
-      <div class="contact-inner">
-        <p class="eyebrow"><span></span> 06 / CONTACTO</p>
-        <h2>Hagamos que una<br><em>buena idea avance.</em></h2>
-        <p class="contact-text">Gracias por visitar mi portafolio. Este es un pequeño espacio de mi presente y una mirada hacia todo lo que quiero seguir aprendiendo.</p>
-        <a class="email" href="mailto:marianencizo17@gmail.com">marianencizo17@gmail.com <span>↗</span></a>
-      </div>
-      <div class="contact-stamp">ME<br><span>2026</span></div>
-    </section>
-  </main>
+    <div class="qa-grid">
+      <article>
+        <span>01</span><h3>¿Qué contiene el portafolio y por qué elegí esa información?</h3>
+        <p>
+          Contiene presentación personal, formación académica, habilidades,
+          proyectos destacados y datos de contacto, además del diseño visual
+          aplicado. Elegí esta información porque permite conocerme como
+          estudiante y observar qué he aprendido y qué sé hacer.
+        </p>
+      </article>
+      <article>
+        <span>02</span><h3>¿Qué herramientas usé durante el periodo?</h3>
+        <p>
+          Trabajé con Google Docs, Google Sheets, Google Forms, Google Slides,
+          HTML y CSS. Cada herramienta aporta una función diferente dentro
+          del proceso de aprendizaje y comunicación digital.
+        </p>
+      </article>
+      <article>
+        <span>03</span><h3>¿Qué fue lo más difícil y qué aprendí?</h3>
+        <p>
+          Uno de los retos fue reunir aprendizajes diferentes dentro de un
+          solo proyecto sin perder el orden ni la claridad. Aprendí que
+          planificar, revisar y organizar son tan importantes como crear.
+        </p>
+      </article>
+      <article>
+        <span>04</span><h3>¿Cómo planeo seguir usando estas herramientas?</h3>
+        <p>
+          Quiero continuar utilizándolas en trabajos académicos, proyectos
+          personales y futuras experiencias de formación, aprovechando lo
+          aprendido para presentar información de manera más organizada.
+        </p>
+      </article>
+    </div>
+  </section>
 
-  <footer>
-    <span>MARiana encizo · portafolio digital</span>
-    <span>Hecho con HTML + CSS · 2026</span>
-  </footer>
+  <section class="section final-check">
+    <div class="section-title">
+      <span>07</span>
+      <div><p class="kicker">LISTA DE VERIFICACIÓN</p><h2>Mi proyecto final<br>está organizado.</h2></div>
+    </div>
 
-  <script>
-    const items = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add('visible');
-      });
-    }, { threshold: 0.12 });
-    items.forEach(item => observer.observe(item));
-  </script>
+    <div class="checklist">
+      <div class="check-item"><b>✓</b><span>Sección de presentación personal</span><small>Incluida</small></div>
+      <div class="check-item"><b>✓</b><span>Sección de formación académica</span><small>Incluida</small></div>
+      <div class="check-item"><b>✓</b><span>Sección de habilidades</span><small>Incluida</small></div>
+      <div class="check-item"><b>✓</b><span>Sección de proyectos destacados</span><small>Incluida</small></div>
+      <div class="check-item"><b>✓</b><span>Datos de contacto</span><small>Incluidos</small></div>
+      <div class="check-item"><b>✓</b><span>Estilo CSS aplicado: colores, tipografía y espaciado</span><small>Aplicado</small></div>
+      <div class="check-item"><b>✓</b><span>Página publicada con enlace funcional mediante GitHub Pages</span><small>Publicada</small></div>
+    </div>
+
+    <div class="reflection">
+      <span class="kicker">REFLEXIÓN FINAL DEL PERIODO</span>
+      <h3>Este proyecto no termina cuando se entrega.</h3>
+      <p>
+        Este portafolio es una herramienta que puedo llevar conmigo. Al estar
+        publicado en Internet, puede acompañarme en nuevas etapas académicas,
+        proyectos personales y oportunidades futuras. Lo más importante es que
+        no tiene que quedarse igual: puedo actualizarlo a medida que adquiera
+        nuevos conocimientos, habilidades y experiencias.
+      </p>
+    </div>
+
+    <div class="concepts">
+      <div><b>Proyecto integrador</b><span>Trabajo final que reúne conocimientos trabajados durante el periodo.</span></div>
+      <div><b>Sustentación</b><span>Presentación oral en la que explico y defiendo mi proyecto.</span></div>
+      <div><b>Producto digital</b><span>Resultado de un proceso de aprendizaje expresado mediante recursos digitales.</span></div>
+      <div><b>Retroalimentación</b><span>Orientaciones que permiten revisar y mejorar el trabajo.</span></div>
+      <div><b>Proyecto de vida digital</b><span>Uso del entorno digital para mostrar aprendizajes y proyectar nuevas oportunidades.</span></div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contacto">
+    <div>
+      <p class="kicker">08 · DATOS DE CONTACTO</p>
+      <h2>Gracias por<br><em>visitar mi proyecto.</em></h2>
+      <p>
+        Este espacio reúne una parte de mi formación y de lo que he aprendido
+        en Tecnología e Informática. Gracias por conocer mi trabajo.
+      </p>
+    </div>
+    <div class="contact-card">
+      <span>CONTACTO</span>
+      <a href="mailto:marianencizo17@gmail.com">marianencizo17@gmail.com</a>
+      <small>Mariana Encizo Amezquita · Grado 11 · 2026</small>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>PROYECTO FINAL · MI PORTAFOLIO DIGITAL PERSONAL</span>
+  <span>HTML · CSS · GITHUB PAGES</span>
+</footer>
+
 </body>
 </html>
